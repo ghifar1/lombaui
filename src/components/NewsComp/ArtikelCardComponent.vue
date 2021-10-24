@@ -1,7 +1,7 @@
 <template>
   <div id="card-article" class="relative rounded-3xl shadow-2xl">
     <div
-      class="absolute bottom-0 w-full rounded-3xl p-6 text-white"
+      class="absolute bottom-0 w-full rounded-3xl p-10 text-white"
       style="background-color: #00a3ff"
     >
       <p class="font-bold text-xl"><slot name="artikel-title"></slot></p>
@@ -19,8 +19,8 @@ export default {};
 
 <style>
 #card-article {
-  width: 350px;
-  height: 400px;
+  width: 500px;
+  height: 453px;
   background-color: #3f3f3f;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="relative mx-32 py-24 h-full">
+  <div class="relative mx-32 my-24 h-full">
     <slot> </slot>
   </div>
 </template>

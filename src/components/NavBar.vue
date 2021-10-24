@@ -8,8 +8,8 @@
       </div>
       <div class="mx-44">
         <div class="flex h-full items-center justify-between">
-          <router-link to="/test">Tentang Kami</router-link>
-          <p>Artikel</p>
+          <router-link to="/" @click="scrollToTop">Tentang Kami</router-link>
+          <router-link to="/news" @click="scrollToTop"><p>Artikel</p></router-link>
           <p>Galeri</p>
         </div>
       </div>

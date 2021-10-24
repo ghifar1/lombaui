@@ -9,7 +9,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <div class="grid grid-cols-2">
+        <div class="grid grid-cols-2 pt-24">
           <div>
             <p class="font-medium text-2xl mb-4">Informasi</p>
             <div class="font-light">
@@ -26,7 +26,7 @@
             </div>
           </div>
         </div>
-        <div>
+        <div class="pt-24">
           <p class="font-medium text-2xl mb-4">Sosial Media</p>
           <div class="flex">
             <div class="bg-white rounded-full p-4 m-2">

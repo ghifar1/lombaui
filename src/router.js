@@ -1,7 +1,9 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Welcome from "./pages/Welcome.vue";
-import HelloWorld from "./components/HelloWorld.vue";
 import TentangKami from "./pages/TentangKami.vue";
+import News from "./pages/News.vue";
+import Kepengurusan from "./pages/Kepengurusan.vue";
+import PageNotFound from "./pages/PageNotFound.vue";
 
 const routes = [
   {
@@ -10,21 +12,37 @@ const routes = [
     component: Welcome,
   },
   {
-    path: "/test",
-    name: "Test",
-    component: HelloWorld
+    path: "/news",
+    name: "News",
+    component: News,
   },
   {
     path: "/tentangKami",
     name: "TentangKami",
-    component: TentangKami
-  }
+    component: TentangKami,
+  },
+  {
+    path: "/kepengurusan",
+    name: "Kepengurusan",
+    component: Kepengurusan,
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    component: PageNotFound,
+  },
 ];
 
-
 const router = createRouter({
-    history: createWebHistory(),
-    routes
+  history: createWebHistory(),
+  routes,
+  scrollBehavior() {
+    return { x: 0, y: 0 }
+  },
 });
+
+router.beforeEach((to, from, next) => {
+  window.scrollTo(0, 0)
+  next()
+})
 
 export default router;

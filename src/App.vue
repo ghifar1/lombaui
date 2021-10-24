@@ -1,6 +1,6 @@
 <template>
-  <NavBar />
-  <div class="mt-18">
+  <nav-bar/>
+  <div>
       <router-view />
   </div>
 </template>
@@ -15,4 +15,5 @@ export default {
 </script>
 
 <style>
+
 </style>

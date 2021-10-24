@@ -1,8 +1,10 @@
 <template>
-  <div class="absolute top-0 w-full text-white h-16" id="navbar">
+  <div class="sticky z-10 top-0 w-full text-white h-24 shadow-2xl" id="navbar">
     <div class="grid grid-cols-2 h-full">
       <div class="grid grid-cols-2">
-        <div class="flex mx-20 items-center justify-center"><router-link to="/">Logo</router-link></div>
+        <div class="flex mx-20 items-center justify-center"><router-link to="/">
+        <img :src="'../src/assets/logo.png'" class="h-16"/>
+        </router-link></div>
       </div>
       <div class="mx-44">
         <div class="flex h-full items-center justify-between">
@@ -21,6 +23,6 @@ export default {};
 
 <style>
 #navbar {
-  background-color: #3f3f3f;
+  background-color: #3F3F3F;
 }
 </style>

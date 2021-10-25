@@ -4,6 +4,7 @@ import TentangKami from "./pages/TentangKami.vue";
 import News from "./pages/News.vue";
 import Kepengurusan from "./pages/Kepengurusan.vue";
 import PageNotFound from "./pages/PageNotFound.vue";
+import DetailsNews from "./pages/DetailsNews.vue";
 
 const routes = [
   {
@@ -15,6 +16,11 @@ const routes = [
     path: "/news",
     name: "News",
     component: News,
+  },
+  {
+    path: "/detailsNews",
+    name: "DetailsNews",
+    component: DetailsNews,
   },
   {
     path: "/tentangKami",

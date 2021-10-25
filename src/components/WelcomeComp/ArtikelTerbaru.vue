@@ -6,7 +6,7 @@
       </div>
       <div class="col-span-2 flex flex-wrap justify-between items-center w-full gap-5">
         <article-card-welcome-component>
-          <template v-slot:artikel-title>Belajar Adobe Illustrator</template>
+          <template v-slot:artikel-title><router-link to="/detailsNews">Belajar Adobe Illustrator</router-link></template>
           <template v-slot:artikel-teks
             >#1. Dasar - Dasar Tools Adobe Illustrator</template
           >
@@ -15,7 +15,7 @@
           </template>
         </article-card-welcome-component>
         <article-card-welcome-component>
-          <template v-slot:artikel-title>Belajar Adobe Photoshop</template>
+          <template v-slot:artikel-title><router-link to="/detailsNews">Belajar Adobe Photoshop</router-link></template>
           <template v-slot:artikel-teks
             >#1. Dasar - Dasar Tools Adobe Photoshop</template
           >

@@ -4,7 +4,7 @@
       <div class="grid grid-cols-3 text-white h-full">
         <div class="flex items-center justify-center h-full">
           <div>
-            <img :src="'/src/assets/logo.png'" class="w-48" />
+            <img :src="'/img/logo.png'" class="w-48" />
             <p class="mt-16 font-medium text-2xl">Alamat</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
@@ -30,13 +30,13 @@
           <p class="font-medium text-2xl mb-4">Sosial Media</p>
           <div class="flex">
             <div class="bg-white rounded-full p-4 m-2">
-              <img :src="'/src/assets/instagram_black.png'" class="h-10" />
+              <img :src="'/img/instagram_black.png'" class="h-10" />
             </div>
             <div class="bg-white rounded-full p-4 m-2">
-              <img :src="'/src/assets/facebook_black.png'" class="h-10" />
+              <img :src="'/img/facebook_black.png'" class="h-10" />
             </div>
             <div class="bg-white rounded-full p-4 m-2">
-              <img :src="'/src/assets/twitter_black.png'" class="h-10" />
+              <img :src="'/img/twitter_black.png'" class="h-10" />
             </div>
           </div>
         </div>

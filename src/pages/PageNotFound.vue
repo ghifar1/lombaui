@@ -1,6 +1,6 @@
 <template>
   <div class="h-screen">
-      <img :src="'/src/assets/404.png'" />
+      <img :src="'/img/404.png'" />
   </div>
 </template>
 

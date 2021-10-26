@@ -3,19 +3,19 @@
     <div class="flex flex-wrap items-center justify-between gap-5 h-full">
     <card-component>
       <template v-slot:card-image>
-        <img :src="'../src/assets/code.png'" class="mx-auto" />
+        <img :src="'/img/code.png'" class="mx-auto" />
       </template>
       <template v-slot:title> Divisi TI </template>
     </card-component>
     <card-component>
       <template v-slot:card-image>
-        <img :src="'../src/assets/desain.png'" class="mx-auto" />
+        <img :src="'/img/desain.png'" class="mx-auto" />
       </template>
       <template v-slot:title> Divisi Kreatif </template>
     </card-component>
     <card-component>
       <template v-slot:card-image>
-        <img :src="'../src/assets/robot.png'" class="mx-auto" />
+        <img :src="'/img/robot.png'" class="mx-auto" />
       </template>
       <template v-slot:title> Divisi Litbang </template>
     </card-component>

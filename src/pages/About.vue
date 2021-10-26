@@ -1,7 +1,7 @@
 <template>
   <container-component>
     <div class="grid grid-cols-2 mt-10">
-      <img :src="'../src/assets/logo_details.png'" />
+      <img :src="'/img/logo_details.png'" />
       <div>
         <p class="text-5xl font-bold mt-10">SEJARAH & LOGO</p>
         <div class="border-b-2 border-blue-400 h-2 w-20 mt-2 my-5 items-start"></div>

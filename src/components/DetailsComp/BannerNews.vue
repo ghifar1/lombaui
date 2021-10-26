@@ -3,7 +3,7 @@
         <div class="grid grid-cols-2">
             <div>
                 <img
-                :src="'../src/assets/photoshop.png'"
+                :src="'/img/photoshop.png'"
                 class="mt-10 m-40 h-256"
                 />
             </div>

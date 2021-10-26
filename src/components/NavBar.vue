@@ -3,7 +3,7 @@
     <div class="grid grid-cols-2 h-full">
       <div class="grid grid-cols-2">
         <div class="flex mx-20 items-center justify-center"><router-link to="/">
-        <img :src="'../src/assets/logo.png'" class="h-16"/>
+        <img :src="'/img/logo.png'" class="h-16"/>
         </router-link></div>
       </div>
       <div class="mx-44">

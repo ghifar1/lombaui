@@ -19,7 +19,7 @@
             "
             id="card-logo"
           >
-            <img :src="'../src/assets/logo.png'" class="w-full p-3" />
+            <img :src="'/img/logo.png'" class="w-full p-3" />
           </div>
         </div>
         <div class="col-span-2">

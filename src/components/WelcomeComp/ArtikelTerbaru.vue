@@ -11,7 +11,7 @@
             >#1. Dasar - Dasar Tools Adobe Illustrator</template
           >
           <template v-slot:artikel-gambar>
-            <img :src="'/src/assets/illustrator.png'" />
+            <img :src="'/img/illustrator.png'" />
           </template>
         </article-card-welcome-component>
         <article-card-welcome-component>
@@ -20,7 +20,7 @@
             >#1. Dasar - Dasar Tools Adobe Photoshop</template
           >
           <template v-slot:artikel-gambar>
-            <img :src="'/src/assets/photoshop.png'" />
+            <img :src="'/img/photoshop.png'" />
           </template>
         </article-card-welcome-component>
       </div>

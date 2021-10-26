@@ -29,22 +29,22 @@
                 <div v-bind:class="{'hidden': openTab !== 1, 'block': openTab === 1}">
                     <div class="grid grid-cols-3 gap-2 mx-auto">
                         <div class="w-full">
-                            <img :src="'../src/assets/galeri.jpg'" class="h-96 w-96 object-cover object-center rounded-3xl my-2"/>
+                            <img :src="'/img/galeri.jpg'" class="h-96 w-96 object-cover object-center rounded-3xl my-2"/>
                         </div>
                         <div class="w-full">
-                            <img :src="'../src/assets/galeri.jpg'" class="h-96 w-96 object-cover object-center rounded-3xl my-2" />
+                            <img :src="'/img/galeri.jpg'" class="h-96 w-96 object-cover object-center rounded-3xl my-2" />
                         </div>
                         <div class="w-full">
-                            <img :src="'../src/assets/galeri.jpg'" class="h-96 w-96 object-cover object-center rounded-3xl my-2" />
+                            <img :src="'/img/galeri.jpg'" class="h-96 w-96 object-cover object-center rounded-3xl my-2" />
                         </div>
                         <div class="w-full">
-                            <img :src="'../src/assets/galeri.jpg'" class="h-96 w-96 object-cover object-center rounded-3xl my-2" />
+                            <img :src="'/img/galeri.jpg'" class="h-96 w-96 object-cover object-center rounded-3xl my-2" />
                         </div>
                         <div class="w-full">
-                            <img :src="'../src/assets/galeri.jpg'" class="h-96 w-96 object-cover object-center rounded-3xl my-2" />
+                            <img :src="'/img/galeri.jpg'" class="h-96 w-96 object-cover object-center rounded-3xl my-2" />
                         </div>
                         <div class="w-full">
-                            <img :src="'../src/assets/galeri.jpg'" class="h-96 w-96 object-cover object-center rounded-3xl my-2" />
+                            <img :src="'/img/galeri.jpg'" class="h-96 w-96 object-cover object-center rounded-3xl my-2" />
                         </div>
                     </div>
                 </div>

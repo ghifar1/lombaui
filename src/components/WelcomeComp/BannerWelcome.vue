@@ -15,7 +15,7 @@
       <div></div>
     </div>
     <img
-      :src="'../src/assets/foto_header.png'"
+      :src="'/img/foto_header.png'"
       class="h-4/5 absolute bottom-0 right-14 mr-40"
     />
   </div>

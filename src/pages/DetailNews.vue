@@ -11,10 +11,10 @@ Egestas integer est et maecenas urna. Eget semper vel amet phasellus vestibulum,
   <container-component>
     <div>
       <h3 class="font-bold">Share</h3>
-      <img :src="'../src/assets/whatsapp_blue.png'" class="w-34 h-39 m-2 inline" />
-      <img :src="'../src/assets/facebook_blue.png'" class="w-34 h-39 m-2 inline" />
-      <img :src="'../src/assets/twitter_blue.png'" class="w-34 h-39 m-2 inline" />
-      <img :src="'../src/assets/link_blue.png'" class="w-34 h-39 m-2 inline" />
+      <img :src="'/img/whatsapp_blue.png'" class="w-34 h-39 m-2 inline" />
+      <img :src="'/img/facebook_blue.png'" class="w-34 h-39 m-2 inline" />
+      <img :src="'/img/twitter_blue.png'" class="w-34 h-39 m-2 inline" />
+      <img :src="'/img/link_blue.png'" class="w-34 h-39 m-2 inline" />
     </div>
   </container-component>
   <footer-component />

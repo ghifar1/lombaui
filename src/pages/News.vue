@@ -14,7 +14,7 @@
           >#1. Dasar - dasar tools Adobe Illustrator</template
         >
         <template v-slot:artikel-gambar
-          ><img :src="'/src/assets/illustrator.png'"
+          ><img :src="'/img/illustrator.png'"
         /></template>
       </artikel-card-component>
       <artikel-card-component>
@@ -23,7 +23,7 @@
           >#1. Dasar - dasar tools Adobe Photoshop</template
         >
         <template v-slot:artikel-gambar
-          ><img :src="'/src/assets/photoshop.png'"
+          ><img :src="'/img/photoshop.png'"
         /></template>
       </artikel-card-component>
       <artikel-card-component>
@@ -32,7 +32,7 @@
           >#2. Membuat sketching logo di Adobe Illustrator</template
         >
         <template v-slot:artikel-gambar
-          ><img :src="'/src/assets/illustrator.png'"
+          ><img :src="'/img/illustrator.png'"
         /></template>
       </artikel-card-component>
       <artikel-card-component>
@@ -42,7 +42,7 @@
           Photoshop</template
         >
         <template v-slot:artikel-gambar
-          ><img :src="'/src/assets/photoshop.png'"
+          ><img :src="'/img/photoshop.png'"
         /></template>
       </artikel-card-component>
     </div>

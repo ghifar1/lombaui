@@ -8,9 +8,9 @@
       </div>
       <div class="mx-44">
         <div class="flex h-full items-center justify-between">
-          <router-link to="/tentangKami" @click="scrollToTop"><p>Tentang Kami</p></router-link>
+          <router-link to="/about" @click="scrollToTop"><p>Tentang Kami</p></router-link>
           <router-link to="/news" @click="scrollToTop"><p>Artikel</p></router-link>
-          <p>Galeri</p>
+          <router-link to="/gallery" @click="scrollToTop"><p>Galeri</p></router-link>
         </div>
       </div>
     </div>

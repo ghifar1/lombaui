@@ -1,10 +1,12 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Welcome from "./pages/Welcome.vue";
-import TentangKami from "./pages/TentangKami.vue";
+import About from "./pages/About.vue";
 import News from "./pages/News.vue";
 import Kepengurusan from "./pages/Kepengurusan.vue";
 import PageNotFound from "./pages/PageNotFound.vue";
-import DetailsNews from "./pages/DetailsNews.vue";
+import DetailNews from "./pages/DetailNews.vue";
+import Gallery from "./pages/Gallery.vue";
+
 
 const routes = [
   {
@@ -18,14 +20,19 @@ const routes = [
     component: News,
   },
   {
-    path: "/detailsNews",
-    name: "DetailsNews",
-    component: DetailsNews,
+    path: "/detailNews",
+    name: "DetailNews",
+    component: DetailNews,
   },
   {
-    path: "/tentangKami",
-    name: "TentangKami",
-    component: TentangKami,
+    path: "/about",
+    name: "About",
+    component: About,
+  },
+  {
+    path: "/gallery",
+    name: "Gallery",
+    component: Gallery,
   },
   {
     path: "/kepengurusan",

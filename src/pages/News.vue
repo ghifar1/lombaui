@@ -9,7 +9,7 @@
     </title-page-component>
     <div class="flex flex-wrap justify-between items-center gap-10">
       <artikel-card-component>
-        <template v-slot:artikel-title><router-link to="/detailsNews">Belajar Adobe Illustrator</router-link></template>
+        <template v-slot:artikel-title><router-link to="/detailNews">Belajar Adobe Illustrator</router-link></template>
         <template v-slot:artikel-teks
           >#1. Dasar - dasar tools Adobe Illustrator</template
         >
@@ -18,7 +18,7 @@
         /></template>
       </artikel-card-component>
       <artikel-card-component>
-        <template v-slot:artikel-title><router-link to="/detailsNews">Belajar Adobe Photoshop</router-link></template>
+        <template v-slot:artikel-title><router-link to="/detailNews">Belajar Adobe Photoshop</router-link></template>
         <template v-slot:artikel-teks
           >#1. Dasar - dasar tools Adobe Photoshop</template
         >
@@ -27,7 +27,7 @@
         /></template>
       </artikel-card-component>
       <artikel-card-component>
-        <template v-slot:artikel-title><router-link to="/detailsNews">Belajar Adobe Illustrator</router-link></template>
+        <template v-slot:artikel-title><router-link to="/detailNews">Belajar Adobe Illustrator</router-link></template>
         <template v-slot:artikel-teks
           >#2. Membuat sketching logo di Adobe Illustrator</template
         >
@@ -36,7 +36,7 @@
         /></template>
       </artikel-card-component>
       <artikel-card-component>
-        <template v-slot:artikel-title><router-link to="/detailsNews">Belajar Adobe Photoshop</router-link></template>
+        <template v-slot:artikel-title><router-link to="/detailNews">Belajar Adobe Photoshop</router-link></template>
         <template v-slot:artikel-teks
           >#2. Cara menggunakan pen tool yang baik dan benar di Adobe
           Photoshop</template

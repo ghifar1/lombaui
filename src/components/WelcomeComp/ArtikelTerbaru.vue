@@ -1,10 +1,10 @@
 <template>
   <container-component>
     <div class="grid grid-cols-3 w-full gap-10">
-      <div class="flex items-center justify-center">
+      <div class="col-span-3 md:col-span-1 flex items-center justify-center">
         <p class="text-5xl font-bold">Artikel Terbaru</p>
       </div>
-      <div class="col-span-2 flex flex-wrap justify-between items-center w-full gap-5">
+      <div class="col-span-3 md:col-span-2 flex flex-wrap justify-center md:justify-between items-center w-full gap-5">
         <article-card-welcome-component>
           <template v-slot:artikel-title><router-link to="/detailsNews">Belajar Adobe Illustrator</router-link></template>
           <template v-slot:artikel-teks

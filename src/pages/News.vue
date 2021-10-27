@@ -7,7 +7,7 @@
         Binary</template
       >
     </title-page-component>
-    <div class="flex flex-wrap justify-between items-center gap-10">
+    <div class="flex flex-wrap justify-center md:justify-between items-center gap-10">
       <artikel-card-component>
         <template v-slot:artikel-title><router-link to="/detailNews">Belajar Adobe Illustrator</router-link></template>
         <template v-slot:artikel-teks

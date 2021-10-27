@@ -1,6 +1,6 @@
 <template>
   <container-component>
-    <div class="flex flex-wrap items-center justify-between gap-5 h-full">
+    <div class="flex flex-wrap items-center justify-center md:justify-between gap-5 h-full">
     <card-component>
       <template v-slot:card-image>
         <img :src="'/img/code.png'" class="mx-auto" />

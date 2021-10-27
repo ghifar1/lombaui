@@ -5,7 +5,7 @@
     </div>
     <div class="bg-abucoklat rounded-3xl">
       <div class="grid grid-cols-3 p-7">
-        <div class="col-span-1 flex items-center justify-center">
+        <div class="col-span-3 md:col-span-1 flex items-center justify-center">
           <div
             class="
               h-64
@@ -22,12 +22,12 @@
             <img :src="'/img/logo.png'" class="w-full p-3" />
           </div>
         </div>
-        <div class="col-span-2">
+        <div class="ml-3 col-span-3 md:col-span-2">
           <div class="grid grid-rows-3 h-full">
             <div class="row-span-2 text-white">
               <div class="flex items-center h-full">
                 <div>
-                  <p class="font-medium text-3xl">MB Tournament</p>
+                  <p class="font-medium text-3xl text-center md:text-left mt-5 md:mt-0">MB Tournament</p>
                   <p class="font-light mt-2 leading-6">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu
                     dolor ipsum odio turpis nulla malesuada imperdiet. Dui metus
@@ -43,6 +43,7 @@
                   font-bold
                   px-6
                   py-4
+                  mt-2
                   rounded-2xl
                   border-2
                   custom-btn-border

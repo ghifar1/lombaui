@@ -6,7 +6,7 @@
         >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</template
       >
     </title-page-component>
-    <div class="flex flex-wrap justify-between items-center gap-10 mt-10">
+    <div class="flex flex-wrap justify-center md:justify-between items-center gap-10 mt-10">
       <profile-card-component>
         <template v-slot:jabatan> Ketua </template>
       </profile-card-component>
@@ -19,7 +19,7 @@
     </div>
 
     <div class="py-32">
-      <p class="font-bold text-5xl">Divisi IT</p>
+      <p class="font-bold text-4xl">Divisi IT</p>
       <div class="border-b-2 border-blue-400 h-2 w-20 mt-2 my-5"></div>
       <p class="font-light">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum
@@ -32,7 +32,7 @@
         <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
         <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
       </ul>
-      <div class="flex flex-wrap justify-between items-center gap-10 mt-10">
+      <div class="flex flex-wrap justify-center md:justify-between items-center gap-10 mt-10">
         <profile-card-component>
           <template v-slot:jabatan> Ketua </template>
         </profile-card-component>

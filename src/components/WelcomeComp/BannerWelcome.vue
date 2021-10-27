@@ -1,9 +1,9 @@
 <template>
   <div class="relative" id="custom_rounded">
-    <div class="grid grid-cols-2 h-full">
+    <div class="grid grid-cols-1 md:grid-cols-2 h-full">
       <div class="flex items-center">
-        <div class="mx-24">
-          <p class="text-6xl font-bold text-blue-400">
+        <div class="mx-10 lg:mx-24">
+          <p class="text-2xl md:text-4xl lg:text-6xl font-bold text-blue-400">
             Senangnya Berorganisasi Seperti Berkeluarga
           </p>
           <p class="mt-5 text-white font-light">
@@ -16,7 +16,18 @@
     </div>
     <img
       :src="'/img/foto_header.png'"
-      class="h-4/5 absolute bottom-0 right-14 mr-40"
+      class="
+        h-1/3
+        md:h-2/4
+        lg:h-4/5
+        absolute
+        bottom-1
+        md:bottom-0
+        right-14
+        mr-16
+        md:mr-20
+        lg:mr-40
+      "
     />
   </div>
 </template>
@@ -26,8 +37,9 @@ export default {};
 </script>
 
 <style>
-#custom_rounded {
-  border-bottom-right-radius: 200px;
+@media only screen and (max-width: 800px) {
+  #custom_rounded {
+  border-bottom-right-radius: 150px;
   height: 600px;
   background: rgb(67, 68, 68);
   background: linear-gradient(
@@ -36,4 +48,8 @@ export default {};
     rgba(10, 10, 10, 1) 100%
   );
 }
+  
+}
+
+
 </style>

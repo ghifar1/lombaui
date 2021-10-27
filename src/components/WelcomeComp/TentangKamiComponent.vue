@@ -1,7 +1,7 @@
 <template>
   <container-component>
-    <div class="grid grid-cols-6">
-      <div class="col-span-2 flex items-center justify-start">
+    <div class="md:grid grid-cols-6">
+      <div class="col-span-6 md:col-span-2 flex items-center justify-start">
         <div
           class="
             bg-abucoklat
@@ -18,7 +18,7 @@
           <img :src="'/img/logo.png'" class="w-full p-3" />
         </div>
       </div>
-      <div class="col-span-4 mr-10">
+      <div class="col-span-4 mr-0 md:mr-10 ml-5">
         <p class="text-4xl font-bold mt-10">Tentang Kami</p>
         <p class="mt-5 leading-7">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu dolor

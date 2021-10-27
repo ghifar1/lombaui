@@ -7,7 +7,7 @@
       </p>
     </div>
     <div class="row-span-2 flex items-center justify-center h-full">
-      <p class="text-center">
+      <p class="text-center text-sm md:text-base">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
         fermentum, lobortis sit neque.
       </p>
@@ -21,8 +21,6 @@ export default {};
 
 <style>
 #card {
-  width: 300px;
-  height: 400px;
   background-color: #3f3f3f;
 }
 </style>

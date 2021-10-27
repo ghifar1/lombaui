@@ -1,6 +1,6 @@
 <template>
   <div class="text-center">
-    <p class="font-bold text-5xl"><slot name="title-page"></slot></p>
+    <p class="font-bold text-4xl"><slot name="title-page"></slot></p>
     <p class="my-2 font-light">
       <slot name="keterangan"></slot>
     </p>

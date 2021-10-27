@@ -17,13 +17,13 @@
     <img
       :src="'/img/foto_header.png'"
       class="
-        h-1/2
+        h-2/5
         md:h-2/4
         lg:h-4/5
         absolute
         bottom-0
         right-14
-        mr-5
+        mr-0
         md:mr-20
         lg:mr-40
       "

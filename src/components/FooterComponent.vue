@@ -29,14 +29,14 @@
         <div class="col-span-3 md:col-span-1 pt-5 md:pt-24">
           <p class="font-medium text-2xl mb-4">Sosial Media</p>
           <div class="flex">
-            <div class="bg-white rounded-full p-4 m-2">
-              <img :src="'/img/instagram_black.png'" class="w-10" />
+            <div class="bg-white rounded-full p-2 m-2">
+              <img :src="'/img/instagram_black.png'" class="w-7" />
             </div>
-            <div class="bg-white rounded-full p-4 m-2">
-              <img :src="'/img/facebook_black.png'" class="w-10" />
+            <div class="bg-white rounded-full p-2 m-2">
+              <img :src="'/img/facebook_black.png'" class="w-7" />
             </div>
-            <div class="bg-white rounded-full p-4 m-2">
-              <img :src="'/img/twitter_black.png'" class="w-10" />
+            <div class="bg-white rounded-full p-2 m-2">
+              <img :src="'/img/twitter_black.png'" class="w-7" />
             </div>
           </div>
         </div>
@@ -74,7 +74,7 @@ export default {
 @media only screen and (max-width: 800px) {
   #footer-rounded {
     border-top-left-radius: 150px;
-    height: 800px;
+    height: 720px;
     background: rgb(2, 0, 36);
     background: linear-gradient(
       90deg,

@@ -3,10 +3,10 @@
     <div class="grid grid-cols-1 md:grid-cols-2 h-full">
       <div class="flex items-center">
         <div class="mx-10 lg:mx-24">
-          <p class="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-400">
+          <p data-aos="fade-down" data-aos-duration="1000" class="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-400">
             Senangnya Berorganisasi Seperti Berkeluarga
           </p>
-          <p class="mt-5 text-white font-light">
+          <p data-aos="fade-right" data-aos-duration="1000" class="mt-5 text-white font-light">
             Berorganisasi sekaligus mempelajari hal-hal baru dan dapat membangun
             relasi antar sesama
           </p>
@@ -14,7 +14,7 @@
       </div>
       <div></div>
     </div>
-    <img
+    <img data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300"
       :src="'/img/foto_header.png'"
       class="
         h-2/5

@@ -1,5 +1,5 @@
 <template>
-  <container-component>
+  <container-component data-aos="fade-up">
     <div class="flex flex-wrap items-center justify-center md:justify-between gap-5 h-full">
     <card-component>
       <template v-slot:card-image>

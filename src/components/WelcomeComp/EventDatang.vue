@@ -1,9 +1,9 @@
 <template>
   <container-component>
     <div class="text-center">
-      <p class="text-4xl font-bold mb-10">Event Yang Akan Datang</p>
+      <p data-aos="fade-down" data-aos-duration="1000" class="text-4xl font-bold mb-10">Event Yang Akan Datang</p>
     </div>
-    <div class="bg-abucoklat rounded-3xl">
+    <div class="bg-abucoklat rounded-3xl" data-aos="zoom-in-down" data-aos-duration="1000">
       <div class="grid grid-cols-3 p-7">
         <div class="col-span-3 md:col-span-1 flex items-center justify-center">
           <div

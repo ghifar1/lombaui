@@ -25,12 +25,12 @@
           ipsum odio turpis nulla malesuada imperdiet. Dui metus sit pulvinar
           est dictum amet, eu suspendisse neque.
         </p>
-        <button
+        <router-link to="/about"><button
           id="btn-custom"
           class="text-white font-bold px-6 py-4 mt-16 rounded-2xl"
         >
           Selengkapnya
-        </button>
+        </button></router-link>
       </div>
     </div>
   </container-component>

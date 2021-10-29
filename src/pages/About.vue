@@ -1,10 +1,10 @@
 <template>
   <container-component>
     <div class="flex items-center flex-col md:flex-row flex-grow">
-      <div>
+      <div data-aos="fade-left" data-aos-duration="1000">
         <img :src="'/img/logo_details.png'" class="md:object-scale-down" />
       </div>
-      <div class="w-4/5 m-10 md:m-5">
+      <div data-aos="fade-up" data-aos-duration="1000" class="w-4/5 m-10 md:m-5">
         <p class="text-4xl font-bold">SEJARAH & LOGO</p>
         <div class="border-b-2 border-blue-400 h-2 w-20 mt-2 mb-5"></div>
         <br>
@@ -14,7 +14,7 @@ Felis quisque vel a ultrices. Elit vivamus at gravida amet, tincidunt pretium du
     </div>
   </container-component>
   <container-component>
-    <div>
+    <div data-aos="fade-up" data-aos-duration="1000">
         <p class="text-5xl font-bold mt-10 text-center">VISI</p>
         <div class="border-b-2 border-blue-400 h-2 w-20 mt-2 mx-auto mb-5 "></div>
         <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ante a suspendisse aliquam sit pellentesque
@@ -23,7 +23,7 @@ Hac a neque, tincidunt tristique sed arcu lectus porttitor dui.</p>
       </div>
   </container-component>
   <container-component>
-    <div>
+    <div data-aos="fade-up" data-aos-duration="1000">
         <p class="text-5xl font-bold mt-10 text-center">MISI</p>
         <div class="border-b-2 border-blue-400 h-2 w-20 mt-2 mx-auto mb-5"></div>
         <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare nisl egestas sollicitudin massa tincidunt amet mattis accumsan.</p>

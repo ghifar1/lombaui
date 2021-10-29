@@ -4,7 +4,10 @@ import About from "./pages/About.vue";
 import News from "./pages/News.vue";
 import Kepengurusan from "./pages/Kepengurusan.vue";
 import PageNotFound from "./pages/PageNotFound.vue";
-import DetailNews from "./pages/DetailNews.vue";
+import DasarPhotoshop from "./pages/DasarPhotoshop.vue";
+import DasarIllustrator from "./pages/DasarIllustrator.vue";
+import PentoolPhotoshop from "./pages/PentoolPhotoshop.vue";
+import SketchingIllustrator from "./pages/SketchingIllustrator.vue";
 import Gallery from "./pages/Gallery.vue";
 
 
@@ -20,9 +23,24 @@ const routes = [
     component: News,
   },
   {
-    path: "/detailNews",
-    name: "DetailNews",
-    component: DetailNews,
+    path: "/dasarPhotoshop",
+    name: "DasarPhotoshop",
+    component: DasarPhotoshop,
+  },
+  {
+    path: "/dasarIllustrator",
+    name: "DasarIllustrator",
+    component: DasarIllustrator,
+  },
+  {
+    path: "/pentoolPhotoshop",
+    name: "PentoolPhotoshop",
+    component: PentoolPhotoshop,
+  },
+  {
+    path: "/sketchingIllustrator",
+    name: "SketchingIllustrator",
+    component: SketchingIllustrator,
   },
   {
     path: "/about",

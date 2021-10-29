@@ -18,7 +18,7 @@
        <x-icon @click="toggleMobileNav" v-show="mobileNav" class="h-10" />
       </div>
     </div>
-    <div class="flex flex-col gap-5 md:hidden bg-abucoklat px-10 py-5  transform duration-300 ease-out" 
+    <div class="flex flex-col gap-5 md:hidden bg-abucoklat shadow-2xl px-10 py-5  transform duration-300 ease-out" 
     :class="mobileNav ? 'translate-y-0 opacity-100': '-translate-y-64 opacity-0'">
           <router-link to="/about" @click="toggleMobileNav"><p>Tentang Kami</p></router-link>
           <router-link to="/news" @click="toggleMobileNav"><p>Artikel</p></router-link>

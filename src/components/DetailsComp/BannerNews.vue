@@ -1,19 +1,17 @@
 <template>
-    <div class="relative" id="custom_rounded">
-        <div class="grid grid-cols-2">
-            <div>
+    <div class="flex items-center flex-col md:flex-row flex-grow" id="custom_rounded">
+        <div class="m-10 md:m-5">
                 <img
                 :src="'/img/photoshop.png'"
-                class="mt-10 m-40 h-256"
+                class="md:object-scale-down"
                 />
-            </div>
-            <div class="m-20">
-            <p class="mt-5 text-white font-thin ">11 Oktober 2021</p>
-            <p class="text-6xl font-bold text-blue-400">Belajar Adobe Photoshop</p>
-            <p class="mt-5 text-white font-thin ">Author</p>
-            <p class="mt-5 text-white font-medium ">Noval</p>
-            </div>
-        </div>
+          </div>
+          <div class="m-10 md:m-5">
+            <p class="text-white font-thin ">11 Oktober 2021</p>
+            <p class="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-400">Belajar Adobe Photoshop</p>
+            <p class="text-white font-thin ">Author</p>
+            <p class="text-white font-medium ">Noval</p>
+          </div>
     </div>  
 </template>
 

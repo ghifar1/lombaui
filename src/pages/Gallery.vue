@@ -6,18 +6,18 @@
     </title-page-component>
     <div class="flex flex-wrap">
         <div class="w-full">
-        <ul class="flex ml-40 list-none pt-3 pb-4">
-            <li class="mr-5 last:mr-0 text-center">
+        <ul class="grid grid-cols-1 md:grid-cols-3 list-none gap-5 m-10">
+            <li class="w-full mx-auto text-center">
             <a class="text-3xl font-semibold p-3 shadow-lg rounded-2xl block leading-normal" v-on:click="toggleTabs(1)" v-bind:class="{'text-gray-600 bg-white border-2': openTab !== 1, 'text-white bg-gray-600': openTab === 1}">
                 EVENT
             </a>
             </li>
-            <li class="mr-5 last:mr-0 text-center">
+            <li class="w-full mx-auto text-center">
             <a class="text-3xl font-semibold p-3 shadow-lg rounded-2xl block leading-normal" v-on:click="toggleTabs(2)" v-bind:class="{'text-gray-600 bg-white border-2': openTab !== 2, 'text-white bg-gray-600': openTab === 2}">
                 EVENT 1
             </a>
             </li>
-            <li class="mr-5 last:mr-0 text-center">
+            <li class="w-full mx-auto text-center">
             <a class="text-3xl font-semibold p-3 shadow-lg rounded-2xl block leading-normal" v-on:click="toggleTabs(3)" v-bind:class="{'text-gray-600 bg-white border-2': openTab !== 3, 'text-white bg-gray-600': openTab === 3}">
                 EVENT 2
             </a>
@@ -27,23 +27,23 @@
             <div class="w-full">
             <div class="tab-content tab-space">
                 <div v-bind:class="{'hidden': openTab !== 1, 'block': openTab === 1}">
-                    <div class="grid grid-cols-3 gap-2 mx-auto">
-                        <div class="w-full">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-2 mx-auto">
+                        <div>
                             <img :src="'/img/galeri.jpg'" class="h-96 w-96 object-cover object-center rounded-3xl my-2"/>
                         </div>
-                        <div class="w-full">
+                        <div>
                             <img :src="'/img/galeri.jpg'" class="h-96 w-96 object-cover object-center rounded-3xl my-2" />
                         </div>
-                        <div class="w-full">
+                        <div >
                             <img :src="'/img/galeri.jpg'" class="h-96 w-96 object-cover object-center rounded-3xl my-2" />
                         </div>
-                        <div class="w-full">
+                        <div>
                             <img :src="'/img/galeri.jpg'" class="h-96 w-96 object-cover object-center rounded-3xl my-2" />
                         </div>
-                        <div class="w-full">
+                        <div>
                             <img :src="'/img/galeri.jpg'" class="h-96 w-96 object-cover object-center rounded-3xl my-2" />
                         </div>
-                        <div class="w-full">
+                        <div>
                             <img :src="'/img/galeri.jpg'" class="h-96 w-96 object-cover object-center rounded-3xl my-2" />
                         </div>
                     </div>

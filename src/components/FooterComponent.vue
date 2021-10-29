@@ -1,7 +1,7 @@
 <template>
   <div id="footer-rounded" class="relative">
     <container-component>
-      <div class="grid grid-cols-3 text-white h-full">
+      <div class="grid grid-cols-4 text-white h-full">
         <div class="col-span-3 md:col-span-1 flex items-center justify-center h-full">
           <div>
             <img :src="'/img/logo.png'" class="w-28 md:w-48 mt-10 md:mt-0 mx-auto md:mx-0" />
@@ -9,7 +9,7 @@
             <p class="text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <div class="col-span-3 md:col-span-1 grid grid-cols-2 pt-10 md:pt-24">
+        <div class="col-span-3 md:col-span-1 pt-10 md:pt-24">
           <div>
             <p class="font-medium text-2xl mb-4">Informasi</p>
             <div class="font-light">
@@ -18,6 +18,8 @@
               <p class="my-1">Galeri</p>
             </div>
           </div>
+          </div>
+        <div class="col-span-3 md:col-span-1 pt-10 md:pt-24">
           <div>
             <p class="font-medium text-2xl mb-4">Kontak Kami</p>
             <div class="font-light">
@@ -30,21 +32,21 @@
           <p class="font-medium text-2xl mb-4">Sosial Media</p>
           <div class="flex">
             <div class="bg-white rounded-full p-2 m-2">
-              <img :src="'/img/instagram_black.png'" class="w-7" />
+              <img :src="'/img/instagram_black.png'" class="w-5" />
             </div>
             <div class="bg-white rounded-full p-2 m-2">
-              <img :src="'/img/facebook_black.png'" class="w-7" />
+              <img :src="'/img/facebook_black.png'" class="w-5" />
             </div>
             <div class="bg-white rounded-full p-2 m-2">
-              <img :src="'/img/twitter_black.png'" class="w-7" />
+              <img :src="'/img/twitter_black.png'" class="w-5" />
             </div>
           </div>
         </div>
       </div>
-    </container-component>
-    <div class="absolute bottom-4 text-white w-full text-center">
+      <div class="absolute bottom-4 text-white w-full text-center">
       Copyright 2021. All Rights Reserved
     </div>
+    </container-component>
   </div>
 </template>
 
@@ -74,7 +76,7 @@ export default {
 @media only screen and (max-width: 800px) {
   #footer-rounded {
     border-top-left-radius: 150px;
-    height: 720px;
+    height: 800px;
     background: rgb(2, 0, 36);
     background: linear-gradient(
       90deg,

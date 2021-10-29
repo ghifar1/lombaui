@@ -4,12 +4,12 @@
       <div class="grid grid-cols-4 text-white h-full">
         <div class="col-span-3 md:col-span-1 flex items-center justify-center h-full">
           <div>
-            <img :src="'/img/logo.png'" class="w-28 md:w-48 mt-10 md:mt-0 mx-auto md:mx-0" />
+            <img :src="'/img/logo.png'" class="w-28 md:w-48 mt-5 md:mt-0 mx-auto md:mx-0" />
             <p class="mt-14 font-medium text-xl md:text-2xl">Alamat</p>
             <p class="text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <div class="col-span-3 md:col-span-1 pt-10 md:pt-24">
+        <div class="col-span-3 md:col-span-1 pt-2 md:pt-24">
           <div>
             <p class="font-medium text-2xl mb-4">Informasi</p>
             <div class="font-light">
@@ -19,7 +19,7 @@
             </div>
           </div>
           </div>
-        <div class="col-span-3 md:col-span-1 pt-10 md:pt-24">
+        <div class="col-span-3 md:col-span-1 pt-2 md:pt-24">
           <div>
             <p class="font-medium text-2xl mb-4">Kontak Kami</p>
             <div class="font-light">
@@ -28,8 +28,8 @@
             </div>
           </div>
         </div>
-        <div class="col-span-3 md:col-span-1 pt-5 md:pt-24">
-          <p class="font-medium text-2xl mb-4">Sosial Media</p>
+        <div class="col-span-3 md:col-span-1 pt-2 md:pt-24">
+          <p class="font-medium text-2xl mb-2">Sosial Media</p>
           <div class="flex">
             <div class="bg-white rounded-full p-2 m-2">
               <img :src="'/img/instagram_black.png'" class="w-5" />
@@ -61,6 +61,10 @@ export default {
 </script>
 
 <style>
+.router-link-active {
+  border-bottom: 2px solid rgb(96, 165, 250);
+}
+
 #footer-rounded {
   border-top-left-radius: 250px;
   height: 400px;

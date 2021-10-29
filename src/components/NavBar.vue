@@ -2,7 +2,7 @@
   <div class="sticky z-10 top-0 w-full text-white h-24 shadow-2xl" id="navbar">
     <div class="grid grid-cols-2 h-full">
       <div class="grid grid-cols-2">
-        <div class="flex items-center justify-center"><router-link to="/">
+        <div class="flex items-center justify-center"><router-link to="/" style="border-bottom: 0px !important;">
         <img :src="'/img/logo.png'" class="w-16"/>
         </router-link></div>
       </div>
